@@ -6,7 +6,7 @@ import "https://github.com/measurabledatatoken/mefi-client/blob/main/contract/me
 
 contract MefiOracleConsumer is MefiClient, MefiRinkebyConfig {
     bytes32 public curReqId;
-
+ 
     mapping(bytes32 => string) public prices;
     mapping(bytes32 => string) public currencies;
     mapping(bytes32 => string) public dates;
